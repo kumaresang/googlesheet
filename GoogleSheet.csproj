@@ -1,9 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp2.2\client_secret.json" />
+    <Content Include="bin\Debug\netcoreapp2.2\GoogleSheet.deps.json" />
+    <Content Include="bin\Debug\netcoreapp2.2\GoogleSheet.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp2.2\GoogleSheet.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp2.2\GoogleSheet.dll" />
+    <None Include="bin\Debug\netcoreapp2.2\GoogleSheet.pdb" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Google.Apis.Sheets.v4" Version="1.40.3.1666" />
