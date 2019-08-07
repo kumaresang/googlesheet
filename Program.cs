@@ -33,7 +33,30 @@ namespace GoogleSheet
             });
             ReadEntries();
             CreateEntry();
+            UpdateEntry();
+            DeleteEntry();
             Console.Read();
+        }
+        static void UpdateEntry()
+        {
+            var range = $"{sheet}!D543";
+            var valueRange = new ValueRange();
+
+            var oblist = new List<object>() { "updated" };
+            valueRange.Values = new List<IList<object>> { oblist };
+
+            var updateRequest = service.Spreadsheets.Values.Update(valueRange, SpreadsheetId, range);
+            updateRequest.ValueInputOption = SpreadsheetsResource.ValuesResource.UpdateRequest.ValueInputOptionEnum.USERENTERED;
+            var appendReponse = updateRequest.Execute();
+        }
+
+        static void DeleteEntry()
+        {
+            var range = $"{sheet}!A543:F";
+            var requestBody = new ClearValuesRequest();
+
+            var deleteRequest = service.Spreadsheets.Values.Clear(requestBody, SpreadsheetId, range);
+            var deleteReponse = deleteRequest.Execute();
         }
         static void CreateEntry()
         {
