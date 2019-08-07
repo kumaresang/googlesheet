@@ -1,0 +1,12 @@
+C:\Users\sanda\source\repos\GoogleSheet\bin\Debug\netcoreapp2.2\GoogleSheet.deps.json
+C:\Users\sanda\source\repos\GoogleSheet\bin\Debug\netcoreapp2.2\GoogleSheet.runtimeconfig.json
+C:\Users\sanda\source\repos\GoogleSheet\bin\Debug\netcoreapp2.2\GoogleSheet.runtimeconfig.dev.json
+C:\Users\sanda\source\repos\GoogleSheet\bin\Debug\netcoreapp2.2\GoogleSheet.dll
+C:\Users\sanda\source\repos\GoogleSheet\obj\Debug\netcoreapp2.2\GoogleSheet.csprojAssemblyReference.cache
+C:\Users\sanda\source\repos\GoogleSheet\obj\Debug\netcoreapp2.2\GoogleSheet.csproj.CoreCompileInputs.cache
+C:\Users\sanda\source\repos\GoogleSheet\obj\Debug\netcoreapp2.2\GoogleSheet.AssemblyInfoInputs.cache
+C:\Users\sanda\source\repos\GoogleSheet\obj\Debug\netcoreapp2.2\GoogleSheet.AssemblyInfo.cs
+C:\Users\sanda\source\repos\GoogleSheet\bin\Debug\netcoreapp2.2\client_secret.json
+C:\Users\sanda\source\repos\GoogleSheet\bin\Debug\netcoreapp2.2\GoogleSheet.pdb
+C:\Users\sanda\source\repos\GoogleSheet\obj\Debug\netcoreapp2.2\GoogleSheet.dll
+C:\Users\sanda\source\repos\GoogleSheet\obj\Debug\netcoreapp2.2\GoogleSheet.pdb
